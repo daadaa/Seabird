@@ -7,6 +7,31 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+ /*mon css*/
+.footer{
+
+position:relative;
+height:280px
+}
+.content{
+
+position:relative;
+top:-30px;
+height:600px
+}
+.enter{
+float:right;
+margin-top:200px;
+display:block;
+width:45%;
+}
+.logo{
+float:left;
+display:block;
+width:45%;
+}
+
+/*fin mon css*/
 
 .clearfix {
   *zoom: 1;
@@ -227,8 +252,21 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
-}
+  height:100%;
+background-image: linear-gradient(bottom, rgb(153,235,224) 21%, rgb(247,247,242) 36%);
+background-image: -o-linear-gradient(bottom, rgb(153,235,224) 21%, rgb(247,247,242) 36%);
+background-image: -moz-linear-gradient(bottom, rgb(153,235,224) 21%, rgb(247,247,242) 36%);
+background-image: -webkit-linear-gradient(bottom, rgb(153,235,224) 21%, rgb(247,247,242) 36%);
+background-image: -ms-linear-gradient(bottom, rgb(153,235,224) 21%, rgb(247,247,242) 36%);
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.21, rgb(153,235,224)),
+	color-stop(0.36, rgb(247,247,242))
+);
+background-repeat:no-repeat;
+  }
 
 a {
   color: #0088cc;
@@ -807,6 +845,7 @@ h4 small {
   padding-bottom: 9px;
   margin: 20px 0 30px;
   border-bottom: 1px solid #eeeeee;
+  background-color:#f7f7f2;
 }
 
 ul,
